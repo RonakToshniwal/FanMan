@@ -1,0 +1,55 @@
+.CreateUser{
+    padding: 7%;
+    background-color: #90ee90;
+    height: 100%;
+}
+.CreateUser h1{
+    margin-left: 43%;
+    font-family: Fantasy;
+    color:green;
+    font-size: 300%;
+}
+.NewUserForm{
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+    box-shadow: 1px 1px 5px 5px #888888;
+    border-radius: 1%;
+    padding: 2%;
+    display:inline ;
+    float: right;
+    background-color: white;
+    margin-right: 36%;
+}
+.NewUserForm h3{
+    text-align: center;
+    justify-content: center;
+}
+.NewUserForm button{
+    width: 100%;
+    margin-top: 2%;
+    padding: 2%;
+    font-size: 120%;
+}
+.NewUserForm a{
+    padding-left: 34%;
+    padding-top: 2%;
+}
+.DayBlock,.MonthBlock,.YearBlock{
+   
+    width: 32%;
+    display: flex;
+    float: left;
+    margin-top: 3%;
+}
+.MonthBlock{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.NewUserRadio{
+    width: 33%;
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+

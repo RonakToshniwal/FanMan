@@ -1,0 +1,57 @@
+.LoginFormBlock{
+    height: 100%;
+    width: 30%;
+    justify-content: center;
+    box-shadow: 1px 1px 5px 5px #888888;
+    border-radius: 1%;
+    padding: 2%;
+    display:inline ;
+    float: right;
+    background-color: white;
+    margin-left: 10%;
+}
+.LoginFormBlock button{
+    margin-top: 2%;
+    width: 100%;
+    padding: 12px 20px;
+    
+    
+}   
+.LoginFormBlock form a{
+    text-align: center;
+    justify-content: center;
+}
+.Loginpass{
+    padding: 100px;
+    
+}
+.LoginPageText{
+    display: inline;
+    float: left;
+    width: 35%; 
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.Loginpage{
+    padding-top:10.448%;
+    padding-bottom: 10.5%;
+    height: 100%;
+    display: flex;
+    background-image: linear-gradient(rgb(101, 222, 101), rgb(137, 137, 137), green);
+   
+
+}
+.LoginPageText h1{
+    font-family:Fantasy;
+}
+.LoginForm a {
+    text-align: center;
+    padding-left: 30%;
+    margin: 5%;
+}
+.LoginForm input[type=email], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5% 0%;
+    box-sizing: border-box;
+}
