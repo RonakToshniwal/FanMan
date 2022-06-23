@@ -15,15 +15,21 @@ class Backconn{
 
     async login(data)
     
-    {   console.log(data)
+    {   
+        console.log(data)
         return await (
             axios.get(url+'/users/',{
-                params:data
-        })    
-            
-            
-            
-            
+                params:data})      
+        )
+    }
+
+    async getProfile(data)
+    
+    {   
+        console.log(data)
+        return await (
+            axios.get(url+'/users/profile/',{
+                params:data})      
         )
     }
 }

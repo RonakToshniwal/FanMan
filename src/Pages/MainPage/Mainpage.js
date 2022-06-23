@@ -1,22 +1,23 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch ,useSelector} from "react-redux";
 import Navbar from "../NavBar/Navbar";
 import { useNavigate } from "react-router-dom";
 import "./Mainpage.css"
+import Profile from "../Profile/Profile";
 function Mainpage (){
     const navigate=useNavigate()
     useEffect(() => {
         if (!localStorage.getItem("userId")){
             navigate('/')
-        }
-      });
+        }});
     const {isLogged,userId}=useSelector((state)=>state)
-    console.log(isLogged)
-    
-    
-    
+    const [tab,changetab]=useState("H")
+    console.log(tab)
     return(<div>
-        <Navbar/>
+        <Navbar tabChange={changetab}/>
+        {(tab=='P')?(<Profile/>):(<h1>Its Home</h1>)}
+        
+        
         </div>
     )
 }
