@@ -12,5 +12,19 @@ class Backconn{
             data:data
           },[]));
     }
+
+    async login(data)
+    
+    {   console.log(data)
+        return await (
+            axios.get(url+'/users/',{
+                params:data
+        })    
+            
+            
+            
+            
+        )
+    }
 }
 export default Backconn

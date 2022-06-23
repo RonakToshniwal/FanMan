@@ -65,7 +65,7 @@ const Createuser =() =>{
             "dob":day+"-"+month+"-"+year,
             "gender":gender
         }).then((res)=>{
-            if (res.data.message=='Email Already Exist '){
+            if (res.data.message=='Email Already Exist'){
                 console.log("Hello")
                 alert(res.data.message)
             }
