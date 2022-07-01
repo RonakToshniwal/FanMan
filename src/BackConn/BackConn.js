@@ -32,5 +32,18 @@ class Backconn{
                 params:data})      
         )
     }
+    async addExpense(data)
+    
+    {   
+        console.log(data)
+        return await (axios({
+            method: 'POST',
+            url: url+'/users/addexpense/',
+            
+            headers: {'Content-Type': 'application/json',
+      },
+            data:data
+          },[]));
+    }
 }
 export default Backconn

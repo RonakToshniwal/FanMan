@@ -1,0 +1,17 @@
+.ExpenseFormContainer{
+    width: 20%;
+
+}
+.ExpenseFormContainer input[type=text]{
+    margin: 2%;
+}
+.ExpenseFormContainer input[type=number]{
+    margin: 2%;
+}
+.ExpenseFormContainer select{
+    margin: 2%;
+}
+
+.ExpenseFormButton{
+    margin: 2%;
+}
